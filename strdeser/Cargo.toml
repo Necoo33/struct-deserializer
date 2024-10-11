@@ -1,0 +1,13 @@
+[package]
+name = "strdeser"
+version = "0.1.0"
+edition = "2021"
+authors = ["Necdet Arda Etiman <arda_etiman_799@windowslive.com>"]
+description = "A struct serializer for rust empowered with a macro"
+repository = "https://github.com/Necoo33/struct-serializer-rs"
+categories = ["rust-patterns", "data-structures", "parsing"]
+keywords = ["deserialize", "struct-deserializer", "macro", "parse", "struct-creator"]
+license = "MIT"
+
+[dependencies]
+strdesermac = { path = "../strdesermac", version = "0.1.0" }

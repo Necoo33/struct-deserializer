@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "strdeser",
+    "strdesermac"
+]
+resolver = "2"
